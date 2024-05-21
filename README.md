@@ -45,8 +45,8 @@ This is a responsive CRUD (Create, Read, Update, Delete) application built with 
 To get started with this project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/user-management-app.git
-cd user-management-app
+git clone https://github.com/princesharma08/User-Management-Assignment.git
+cd User-Management-Assignment
 npm install
 npm start
 ```
