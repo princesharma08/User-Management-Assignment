@@ -25,7 +25,7 @@ This is a responsive CRUD (Create, Read, Update, Delete) application built with 
 - **Update User**: Allows editing of existing user details through a form with successfully message.
 - **Delete User**: Enables deletion of users with confirmation.
 - **Table Actions**: Ensure that table row data will perform update, view, and delete functionality by icons from Actions column.
-- **View User Details**: Fetch and display the user details by ID with edit button , which is render by table actions of view  button.
+- **View User Details**: Fetch and display the user details by ID with edit button, which is render by table actions of view  button.
 - **Responsive Design**: Ensures the application looks good on both desktop and mobile devices.
 - **Error Handling**: Displays error messages for failed API requests.
 - **Loading Spinner**: Create and Shows a loading spinner while API requests are in progress.
