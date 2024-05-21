@@ -122,10 +122,10 @@ const UserForm = () => {
                 </div>
                 {/* Submit and cancel buttons */}
                 <div className="flex items-center justify-center gap-6 md:gap-10 mt-4">
-                    <button type="submit" className="text-sm md:text-base bg-blue-500 text-white p-2 md:px-4 md:py-2 rounded transform transition-transform duration-500 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-300">
+                    <button type="submit" className="inline-flex items-center text-sm md:text-base bg-blue-500 hover:bg-blue-600 text-white p-2 md:px-4 md:py-2 shadow-md rounded transform transition-transform duration-500 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-300">
                         {id ? 'Update' : 'Create'} User
                     </button>
-                    <button type="button" onClick={() => navigate('/')} className="text-sm md:text-base bg-gray-500 text-white p-2 md:px-4 md:py-2 rounded transform transition-transform duration-500 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-300">
+                    <button type="button" onClick={() => navigate('/')} className="text-sm md:text-base bg-gray-500 hover:bg-gray-600 text-white p-2 md:px-4 md:py-2 rounded transform transition-transform duration-500 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-300">
                         Cancel
                     </button>
                 </div>
